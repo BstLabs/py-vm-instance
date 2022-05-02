@@ -1,7 +1,7 @@
 from collections.abc import Mapping
 from typing import Iterator, TypeVar
 
-from vm_instance_proxy import RemoteShellProxy, VmInstanceProxy
+from .vm_instance_proxy import RemoteShellProxy, VmInstanceProxy
 
 I = TypeVar("I", VmInstanceProxy, RemoteShellProxy)
 
