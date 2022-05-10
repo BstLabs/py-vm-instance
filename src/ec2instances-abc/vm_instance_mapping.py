@@ -3,11 +3,11 @@ from typing import Iterator, TypeVar
 
 from .vm_instance_proxy import RemoteShellProxy, VmInstanceProxy
 
-I = TypeVar("I", VmInstanceProxy, RemoteShellProxy)
+Instance = TypeVar("Instance", VmInstanceProxy, RemoteShellProxy)
 
 
-class VmInstanceMappingBase(Mapping[str, I]):
-    def __getitem__(self, name: str) -> I:
+class VmInstanceMappingBase(Mapping[str, Instance]):
+    def __getitem__(self, name: str) -> Instance:
         ...
 
     def __iter__(self) -> Iterator:
