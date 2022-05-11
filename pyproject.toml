@@ -38,14 +38,6 @@ dev = [
     "flake8 >=4.0.1",
     "pre-commit >=2.17.0"
     ]
-test = [
-    "pytest >=5.4.3",
-]
-gui = [
-# Qt5 components could be installed separately, e.g. via brew
-    "PyQt5 >= 5.15.6",
-    "PyQtWebEngine >= 5.15.5",
-]
 
 [tool.isort]
 profile = "black"
