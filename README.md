@@ -1,7 +1,7 @@
 # py-vm-instance
 Base classes for VM interface implementation
 
-[EC2 Instance ABC](https://github.com/BstLabs/py-vm-instance) was developed by [BST LABS](https://github.com/BstLabs/) as an open source generic infrastructure foundation for the cloud version of Python run-time within the scope of the [Cloud AI Operating System (CAIOS)](http://caios.io) project.
+[instance-map-abc](https://github.com/BstLabs/py-vm-instance) was developed by [BST LABS](https://github.com/BstLabs/) as an open source generic infrastructure foundation for the cloud version of Python run-time within the scope of the [Cloud AI Operating System (CAIOS)](http://caios.io) project.
 
 
 ## Installation
@@ -9,7 +9,7 @@ Base classes for VM interface implementation
 To use it in your projects you need to install it via `pip3`
 
 ```bash
-pip3 install instance-map-abc
+pip3 install instances-map-abc
 ```
 
 ## License
