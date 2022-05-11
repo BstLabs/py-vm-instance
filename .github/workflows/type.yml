@@ -18,5 +18,4 @@ jobs:
       - run: pip install flit==3.6.0
       - run: flit install
       - run: pip install pytype==2022.5.10
-      - run: pytype --config=pytype.cfg src/ec2instances-abc/*.py
-
+      - run: pytype --config=pytype.cfg src/instances-map-abc/*.py
