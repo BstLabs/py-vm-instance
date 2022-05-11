@@ -33,6 +33,7 @@ class RemoteShellProxy(VmInstanceProxy):
     # pytype: disable=bad-return-type
     def stop(self, wait: bool = True) -> None:
         ...
+
     # pytype: disable=bad-return-type
 
     @property
