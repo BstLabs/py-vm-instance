@@ -1,5 +1,4 @@
-from collections.abc import Mapping
-from typing import Iterator, TypeVar
+from typing import Iterator, Mapping, TypeVar
 
 from .vm_instance_proxy import RemoteShellProxy, VmInstanceProxy
 
