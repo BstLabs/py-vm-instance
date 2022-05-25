@@ -15,4 +15,3 @@ pip3 install instances-map-abc
 ## License
 
 MIT License, Copyright (c) 2021-2022 BST LABS. See [LICENSE](https://github.com/BstLabs/py-vm-instance/blob/main/LICENSE.md) file.
-
